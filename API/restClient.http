@@ -1,0 +1,18 @@
+
+POST https://localhost:5001/api/account/login
+content-type: application/json
+
+{
+    "UserName": "bob",
+    "Password": "password"
+}
+
+###
+
+POST https://localhost:5001/api/account/register
+
+###
+
+GET https://example.com/topics/1 HTTP/1.1
+
+###
